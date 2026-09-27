@@ -1,0 +1,14 @@
+# Do not publish extracted game packages or binary data
+*.apk
+*.obb
+*.pak
+*.uasset
+*.umap
+*.ucas
+*.utoc
+/BluePrints/
+/SDK_Organized/
+/raw-game/
+/SDK.hpp
+/NamesDump.txt
+/ObjectsDump.txt
