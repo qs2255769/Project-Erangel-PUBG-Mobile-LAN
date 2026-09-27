@@ -51,23 +51,14 @@ This project is **not** intended to:
 
 Only code, documentation, configuration examples, patches, and research notes that contributors are legally allowed to share should be committed. Users must supply their own lawfully obtained game client and must follow the laws and license terms that apply in their jurisdiction.
 
-Do not open an issue or pull request containing secrets, account tokens, copyrighted game archives, decryption keys, or personal information. Use sanitized logs and small original test fixtures whenever possible.
+Do not open an issue or pull request containing secrets, account tokens, copyrighted game archives, decryption keys, or personal information. Use sanitized logs and small original test fixtures whenever possible. The root `.gitignore` excludes common extracted game dumps and package files.
 
-## Proposed repository structure
+## Current contents
 
-```text
-Project-Erangel-PUBG-Mobile-LAN/
-├── client/          # Original client-side compatibility and LAN code
-├── server/          # Local server experiments and implementations
-├── docs/            # Architecture, protocol, setup, and research notes
-├── tools/           # Original analysis and development utilities
-├── tests/           # Reproducible tests and fixtures
-├── CONTRIBUTING.md
-├── LICENSE
-└── README.md
-```
+- `client/MapPath.lua`: project-authored map-selection configuration.
+- `docs/native-match-startup.md`: notes on the local listen-server startup investigation and the limits of the supplied SDK dump.
 
-Folders will be added as implementation work becomes ready for publication. This README does not claim that every listed feature currently works.
+The original game Lua files, Blueprint JSON, SDK dumps, and game packages are deliberately not included.
 
 ## Development status
 
