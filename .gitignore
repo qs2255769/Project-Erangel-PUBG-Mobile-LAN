@@ -6,9 +6,16 @@
 *.umap
 *.ucas
 *.utoc
+
+# Extracted PUBG game trees and reverse-engineering outputs
+/ShadowTrackerExtra/
 /BluePrints/
 /SDK_Organized/
+/SDK-0.13.4/
 /raw-game/
 /SDK.hpp
 /NamesDump.txt
 /ObjectsDump.txt
+/SDK*.zip
+/Archive*.zip
+/BluePrints*.zip
